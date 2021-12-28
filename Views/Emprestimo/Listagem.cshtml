@@ -1,6 +1,19 @@
-@model ICollection<Emprestimo>
+@model List<Emprestimo>
+
 @{
     ViewData["Title"] = "Listagem de Empréstimos";
+
+    string Classe = "";
+
+    int FiltroPorPag = Int32.Parse(ViewData["livrosPorPag"].ToString());
+    int PaginaAtual = Int32.Parse(ViewData["PagAtual"].ToString());
+
+    int NumLivrosPorPag = (Model.Count < FiltroPorPag ? Model.Count : FiltroPorPag);
+    int NumTotalPag = 0;
+    if (NumLivrosPorPag > 0)
+    {
+        NumTotalPag = Model.Count / NumLivrosPorPag + (Model.Count % NumLivrosPorPag == 0 ? 0 : 1);
+    }
 }
 
 <div class="row">
@@ -8,8 +21,8 @@
         <form class="form-inline" method="POST">
             <div class="form-group mb-2">
                 <select name="TipoFiltro" class="form-control">
-                    <option value="Livro">Livro</option>
                     <option value="Usuario">Usuário</option>
+                    <option value="Livro">Livro</option>
                 </select>
             </div>
 
@@ -17,7 +30,26 @@
                 <input type="text" placeholder="Filtro" name="Filtro" class="form-control" />
             </div>
 
-            <button type="submit" class="btn btn-primary mb-2">Pesquisar</button>
+            <div id="SeletorPaginas">
+                <span>Página:</span>
+                @for (int i = 1; i < NumTotalPag; i++)
+                {
+                    <span><a href="/Livro/Listagem?PaginaAtual=@i">@i</a></span>
+                }
+            </div>
+
+            <div>
+                <select class="form-control" style="margin: 7%;" name="itensPorPag" id="itensPorPag">
+                    <option value="10">10 livros</option>
+                    <option value="20">20 livros</option>
+                    <option value="30">30 livros</option>
+                    <option value="40">40 livros</option>
+                    <option value="@Model.Count">Todos</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary mb-2" style="margin: 2%; margin-top:1%;">Pesquisar</button>
+
         </form>
     </div>
 </div>
@@ -35,33 +67,51 @@
                         <th>Data Devolução</th>
                         <th>Livro</th>
                         <th>Autor</th>
-                        <th>Devolvido</th>
-                        <th></th>
+                        <th>Ação</th>
                     </tr>
                 </thead>
+                <tbody>
+                    @for (int i = (PaginaAtual - 1) * NumLivrosPorPag; i < (NumLivrosPorPag * PaginaAtual < Model.Count ?
+                   NumLivrosPorPag * PaginaAtual : Model.Count); i++)
+                    {
+                        @if ((System.DateTime.Compare(System.DateTime.Now, Model[i].DataDevolucao) > 0) && !Model[i].Devolvido)
+
+                        {
+                            Classe = "text-danger";
+                        }
+
+                        else if (Model[i].Devolvido)
+
+                        {
+                            Classe = "text-success";
+                        }
+
+                        else
+
+                        {
+                            Classe = "";
+                        }
+
+                        <tr class="@Classe">
+                            <td>@Model[i].Id</td>
+                            <td>@Model[i].NomeUsuario</td>
+                            <td>@Model[i].DataEmprestimo.ToString("dd/MM/yyyy")</td>
+                            <td>@Model[i].DataDevolucao.ToString("dd/MM/yyyy")</td>
+                            <td>@Model[i].Livro.Titulo</td>
+                            <td>@Model[i].Livro.Autor</td>
+                            <td><a href="/Emprestimo/Edicao/@Model[i].Id">Editar</a></td>
+                        </tr>
+                    }
+                </tbody>
             }
             else
             {
-                <br><br>
-                <h4 class="text-center">Ops! Nenhum resultado encontrado.</h4>
-            }
-            <tbody>
-                @foreach (Emprestimo e in Model)
-                {
-                    LivroService livroService = new LivroService();
-                    Livro livro = livroService.ObterPorId(e.LivroId);
+                <thead>
                     <tr>
-                        <td>@e.Id</td>
-                        <td>@e.NomeUsuario</td>
-                        <td>@e.DataEmprestimo.ToString("dd/MM/yyyy")</td>
-                        <td>@e.DataDevolucao.ToString("dd/MM/yyyy")</td>
-                        <td>@e.Livro.Titulo</td>
-                        <td>@e.Livro.Autor</td>
-                        <td><a href="/Emprestimo/Edicao/@e.Id">Editar</a></td>
+                        <th>Ops! Nenhum resultado econtrado.</th>
                     </tr>
-                }
-            </tbody>
-
+                </thead>
+            }
         </table>
     </div>
 </div>

@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Informática para Internet\\UC7\\Atividade 1\\Biblioteca\\Biblioteca.csproj",
+  "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Nova pasta\\Biblioteca\\Biblioteca.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14402,108 +14402,108 @@
   "RootNamespace": "Biblioteca",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Informática para Internet\\UC7\\Atividade 1\\Biblioteca\\Views\\Usuario\\excluirUsuario.cshtml",
-      "TargetPath": "Views\\Usuario\\excluirUsuario.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Informática para Internet\\UC7\\Atividade 1\\Biblioteca\\Views\\Usuario\\editarUsuario.cshtml",
-      "TargetPath": "Views\\Usuario\\editarUsuario.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Informática para Internet\\UC7\\Atividade 1\\Biblioteca\\Views\\Shared\\_CookieConsentPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Informática para Internet\\UC7\\Atividade 1\\Biblioteca\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Informática para Internet\\UC7\\Atividade 1\\Biblioteca\\Views\\Livro\\Cadastro.cshtml",
-      "TargetPath": "Views\\Livro\\Cadastro.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Informática para Internet\\UC7\\Atividade 1\\Biblioteca\\Views\\Livro\\Listagem.cshtml",
-      "TargetPath": "Views\\Livro\\Listagem.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Informática para Internet\\UC7\\Atividade 1\\Biblioteca\\Views\\Usuario\\CadastroRealizado.cshtml",
-      "TargetPath": "Views\\Usuario\\CadastroRealizado.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Informática para Internet\\UC7\\Atividade 1\\Biblioteca\\Views\\Livro\\Edicao.cshtml",
-      "TargetPath": "Views\\Livro\\Edicao.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Informática para Internet\\UC7\\Atividade 1\\Biblioteca\\Views\\Usuario\\NeedAdmin.cshtml",
-      "TargetPath": "Views\\Usuario\\NeedAdmin.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Informática para Internet\\UC7\\Atividade 1\\Biblioteca\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Informática para Internet\\UC7\\Atividade 1\\Biblioteca\\Views\\Usuario\\registrarUsuario.cshtml",
-      "TargetPath": "Views\\Usuario\\registrarUsuario.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Informática para Internet\\UC7\\Atividade 1\\Biblioteca\\Views\\Usuario\\listaUsuarios.cshtml",
-      "TargetPath": "Views\\Usuario\\listaUsuarios.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Informática para Internet\\UC7\\Atividade 1\\Biblioteca\\Views\\Livro\\_FormCadastro.cshtml",
-      "TargetPath": "Views\\Livro\\_FormCadastro.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Informática para Internet\\UC7\\Atividade 1\\Biblioteca\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Informática para Internet\\UC7\\Atividade 1\\Biblioteca\\Views\\Emprestimo\\Cadastro.cshtml",
-      "TargetPath": "Views\\Emprestimo\\Cadastro.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Informática para Internet\\UC7\\Atividade 1\\Biblioteca\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Informática para Internet\\UC7\\Atividade 1\\Biblioteca\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Informática para Internet\\UC7\\Atividade 1\\Biblioteca\\Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Nova pasta\\Biblioteca\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Informática para Internet\\UC7\\Atividade 1\\Biblioteca\\Views\\Emprestimo\\Edicao.cshtml",
-      "TargetPath": "Views\\Emprestimo\\Edicao.cshtml",
+      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Nova pasta\\Biblioteca\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Informática para Internet\\UC7\\Atividade 1\\Biblioteca\\Views\\Home\\Login.cshtml",
+      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Nova pasta\\Biblioteca\\Views\\Livro\\Cadastro.cshtml",
+      "TargetPath": "Views\\Livro\\Cadastro.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Nova pasta\\Biblioteca\\Views\\Livro\\Listagem.cshtml",
+      "TargetPath": "Views\\Livro\\Listagem.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Nova pasta\\Biblioteca\\Views\\Home\\Login.cshtml",
       "TargetPath": "Views\\Home\\Login.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Informática para Internet\\UC7\\Atividade 1\\Biblioteca\\Views\\Emprestimo\\Listagem.cshtml",
+      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Nova pasta\\Biblioteca\\Views\\Usuario\\editarUsuario.cshtml",
+      "TargetPath": "Views\\Usuario\\editarUsuario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Nova pasta\\Biblioteca\\Views\\Livro\\_FormCadastro.cshtml",
+      "TargetPath": "Views\\Livro\\_FormCadastro.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Nova pasta\\Biblioteca\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Nova pasta\\Biblioteca\\Views\\Emprestimo\\Cadastro.cshtml",
+      "TargetPath": "Views\\Emprestimo\\Cadastro.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Nova pasta\\Biblioteca\\Views\\Emprestimo\\Edicao.cshtml",
+      "TargetPath": "Views\\Emprestimo\\Edicao.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Nova pasta\\Biblioteca\\Views\\Livro\\Edicao.cshtml",
+      "TargetPath": "Views\\Livro\\Edicao.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Nova pasta\\Biblioteca\\Views\\Emprestimo\\Listagem.cshtml",
       "TargetPath": "Views\\Emprestimo\\Listagem.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Nova pasta\\Biblioteca\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Nova pasta\\Biblioteca\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Nova pasta\\Biblioteca\\Views\\Shared\\_CookieConsentPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Nova pasta\\Biblioteca\\Views\\Usuario\\listaUsuarios.cshtml",
+      "TargetPath": "Views\\Usuario\\listaUsuarios.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Nova pasta\\Biblioteca\\Views\\Usuario\\NeedAdmin.cshtml",
+      "TargetPath": "Views\\Usuario\\NeedAdmin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Nova pasta\\Biblioteca\\Views\\Usuario\\excluirUsuario.cshtml",
+      "TargetPath": "Views\\Usuario\\excluirUsuario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Nova pasta\\Biblioteca\\Views\\Usuario\\CadastroRealizado.cshtml",
+      "TargetPath": "Views\\Usuario\\CadastroRealizado.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Nova pasta\\Biblioteca\\Views\\Usuario\\registrarUsuario.cshtml",
+      "TargetPath": "Views\\Usuario\\registrarUsuario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\cfdid\\OneDrive\\Área de Trabalho\\Nova pasta\\Biblioteca\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     }
   ],

@@ -19,7 +19,7 @@ namespace Biblioteca.Models
                 return bc.Usuario.Find(id);
             }
         }
-        public void incluirUsuario(Usuario user)
+        public void IncluirUsuario(Usuario user)
         {
             using (BibliotecaContext bc = new BibliotecaContext())
             {
@@ -27,7 +27,7 @@ namespace Biblioteca.Models
                 bc.SaveChanges();
             }
         }
-        public void editarUsuario(Usuario EditUser)
+        public void EditarUsuario(Usuario EditUser)
         {
             using (BibliotecaContext bc = new BibliotecaContext())
             {
@@ -41,7 +41,7 @@ namespace Biblioteca.Models
                 bc.SaveChanges();
             }
         }
-        public void excluirUsuario(int id)
+        public void ExcluirUsuario(int id)
         {
             using (BibliotecaContext bc = new BibliotecaContext())
             {

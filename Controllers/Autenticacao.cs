@@ -103,14 +103,10 @@ namespace Biblioteca.Controllers
 
         {
 
-
-
-            if (!(controller.HttpContext.Session.GetInt32("tipo") == Usuario.admin))
-
+            if (controller.HttpContext.Session.GetInt32("Tipo") != Usuario.admin)
             {
-
-                controller.Request.HttpContext.Response.Redirect("/Usuarios/NeedAdmin");
-
+                
+                controller.Request.HttpContext.Response.Redirect("/Usuario/NeedAdmin");
             }
 
         }
